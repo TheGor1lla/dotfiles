@@ -1,0 +1,1 @@
+/home/helm/git/polybar-spotify/spotify_status.py
