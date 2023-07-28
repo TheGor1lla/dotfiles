@@ -118,7 +118,7 @@ alias docker-compose="docker compose"
 alias cat="bat --style=plain,header --theme='OneHalfDark'"
 alias bat="bat --theme='OneHalfDark'"
 alias fd="fdfind"
-alias config='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
+alias config='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
 
 # Enable kubectl autocompletion
 source <(kubectl completion zsh)
