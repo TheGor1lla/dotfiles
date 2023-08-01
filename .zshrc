@@ -113,12 +113,17 @@ alias k="kubectl"
 alias lazydocker="docker run --rm -it -v /var/run/docker.sock:/var/run/docker.sock -v ~/docker/lazydocker:/.config/jesseduffield/lazydocker --name lazydocker lazyteam/lazydocker"
 alias :q="exit"
 alias docker-compose="docker compose"
+alias watch="watch "
 
-# hightly experimental
+# highly experimental
 alias cat="bat --style=plain,header --theme='OneHalfDark'"
 alias bat="bat --theme='OneHalfDark'"
-alias fd="fdfind"
+alias fd="fdfind "
 alias config='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
+
+# ls theme
+alias ls="lsd "
+export LS_COLORS=$LS_COLORS:'di=01;94:'
 
 # Enable kubectl autocompletion
 source <(kubectl completion zsh)
