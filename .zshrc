@@ -100,6 +100,8 @@ export PATH="${KREW_ROOT:-$HOME/.krew}/bin:$PATH"
 # Compilation flags
 # export ARCHFLAGS="-arch x86_64"
 
+setopt hist_ignore_space         # Don't record an entry starting with a space.
+
 # Set personal aliases, overriding those provided by oh-my-zsh libs,
 # plugins, and themes. Aliases can be placed here, though oh-my-zsh
 # users are encouraged to define aliases within the ZSH_CUSTOM folder.
